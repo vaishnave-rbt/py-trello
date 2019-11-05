@@ -7,7 +7,7 @@ from operator import itemgetter
 import pytz
 from dateutil import parser as dateparser
 
-from trello import TrelloBase
+from trello.base import TrelloBase
 from trello.attachments import Attachments
 from trello.checklist import Checklist
 from trello.compat import force_str
