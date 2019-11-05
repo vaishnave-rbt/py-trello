@@ -3,7 +3,7 @@ from __future__ import with_statement, print_function, absolute_import
 
 import time
 import sys
-from trello import TrelloBase
+from trello.base import TrelloBase
 from trello.compat import force_str
 
 is_python3 = sys.version_info.major == 3
